@@ -15,6 +15,7 @@ public class FirstController {
 		LOG.info("Started Logging ");
 		LOG.info("ZZZZZZZZZz");
 		LOG.info("dev");
+		LOG.info("dev");
 		return "Hello world";
 	}
 }
