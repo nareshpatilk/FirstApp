@@ -1,9 +1,15 @@
+FROM alpine/git as clone
+WORKDIR /app
+RUN git clone https://github.com/nareshpatilk/FirstApp.git
+
+
+FROM maven:3.5-jdk-8-alpine as build
+WORKDIR /app
+COPY --from=clone /app/FirstApp /app
+RUN mvn install
+
 
 FROM openjdk:8-jre-alpine
-MAINTAINER Naresh Patil
-
-RUN mkdir -p /build
-
-WORKDIR /build/
-COPY . .
-ENTRYPOINT ["java", "-jar", "/build/target/FirstApp-0.0.1-SNAPSHOT.jar"]
+WORKDIR /app
+COPY --from=build /app/target/FirstApp-0.0.1-SNAPSHOT.jar /app
+ENTRYPOINT ["java", "-jar", "FirstApp-0.0.1-SNAPSHOT.jar"]
