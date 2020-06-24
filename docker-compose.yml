@@ -1,0 +1,15 @@
+version: '1'
+
+services:
+
+  firstapp:
+      build:
+        context: ./
+        dockerfile: Dockerfile
+      environment:
+        - "TZ=Asia/Kolkata"
+      ports:
+        - 5000:5000
+      volumes:
+        - /opt/zzvolume/firstapp/logs/:/build/logs/
+      network_mode: "host"
