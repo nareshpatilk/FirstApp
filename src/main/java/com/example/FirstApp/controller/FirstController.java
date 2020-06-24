@@ -15,7 +15,7 @@ public class FirstController {
 		LOG.info("Started Logging ");
 		LOG.info("ZZZZZZZZZz");
 		LOG.info("dev");
-		LOG.info("dev");
+		LOG.info("dev clone");
 		return "Hello world";
 		
 //		FROM alpine/git as clone
@@ -34,5 +34,13 @@ public class FirstController {
 //		COPY --from=build /app/target/FirstApp-0.0.1-SNAPSHOT.jar /app
 //		ENTRYPOINT ["java", "-jar", "FirstApp-0.0.1-SNAPSHOT.jar"]
 
+		
+		//FROM openjdk:8-jre-alpine
+
+//RUN mkdir -p /build
+//
+//WORKDIR /build/
+//COPY . .
+//ENTRYPOINT ["java", "-jar", "/build/target/FirstApp-0.0.1-SNAPSHOT.jar"]
 	}
 }
