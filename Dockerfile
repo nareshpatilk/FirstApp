@@ -1,6 +1,6 @@
 FROM alpine/git as clone
 WORKDIR /app
-RUN git clone -b dev https://github.com/nareshpatilk/FirstApp.git skipcache
+RUN git clone -b dev https://github.com/nareshpatilk/FirstApp.git
 
 
 FROM maven:3.5-jdk-8-alpine as build
