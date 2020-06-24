@@ -14,7 +14,7 @@ public class FirstController {
 	public String getFirst() {
 		LOG.info("Started Logging ");
 		LOG.info("ZZZZZZZZZz");
-		LOG.info("dev");
+		LOG.info("dev clone 123");
 		LOG.info("dev clone");
 		return "Hello world";
 		
