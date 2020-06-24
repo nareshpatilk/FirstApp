@@ -15,7 +15,7 @@ public class FirstController {
 		LOG.info("Started Logging ");
 		LOG.info("ZZZZZZZZZz");
 		LOG.info("dev clone 123");
-		LOG.info("dev clone");
+		LOG.info("dev clon magic");
 		return "Hello world";
 		
 //		FROM alpine/git as clone
