@@ -34,6 +34,7 @@ public class FirstController {
 //		COPY --from=build /app/target/FirstApp-0.0.1-SNAPSHOT.jar /app
 //		ENTRYPOINT ["java", "-jar", "FirstApp-0.0.1-SNAPSHOT.jar"]
 
+		//filePattern="./logs/${date:yyyy-MM}/sd_ts-%d{-dd-MMMM-yyyy}-%i.log"
 		
 		//FROM openjdk:8-jre-alpine
 

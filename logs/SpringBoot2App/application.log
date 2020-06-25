@@ -1,0 +1,8 @@
+2020-06-25T14:01:02.603+0530 INFO Starting FirstAppApplicationTests on STS-1461 with PID 11176 (started by naresh.patil in D:\Language_work\JavaCode\FirstApp)
+2020-06-25T14:01:02.608+0530 DEBUG Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-25T14:01:02.609+0530 INFO No active profile set, falling back to default profiles: default
+2020-06-25T14:01:04.972+0530 INFO Started FirstAppApplicationTests in 2.714 seconds (JVM running for 4.067)
+2020-06-25T14:04:47.867+0530 INFO Starting FirstAppApplicationTests on STS-1461 with PID 11120 (started by naresh.patil in D:\Language_work\JavaCode\FirstApp)
+2020-06-25T14:04:47.872+0530 DEBUG Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-25T14:04:47.873+0530 INFO No active profile set, falling back to default profiles: default
+2020-06-25T14:04:50.079+0530 INFO Started FirstAppApplicationTests in 2.593 seconds (JVM running for 3.872)

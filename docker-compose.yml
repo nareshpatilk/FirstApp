@@ -11,5 +11,5 @@ services:
       ports:
         - 5000:5000
       volumes:
-        - /opt/zzvolume/firstapp/logs/:/build/logs/
+        - /opt/zzvolume/firstapp/logs/:/logs/
       network_mode: "host"
